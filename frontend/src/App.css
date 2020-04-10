@@ -1,0 +1,129 @@
+.App {
+  padding: 0;
+  height: 100%;
+}
+#fillSpace {
+  height: 200px;
+  background-color: white;
+}
+#notFoundSpace {
+  height: 500px;
+  background-color: white;
+}
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem; /* Footer height */
+}
+.googleLogin {
+  margin: 10px;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+.featuresHeading {
+  width: 70%;
+  margin: 0.7em auto;
+  overflow: hidden;
+  text-align: center;
+  font-weight: 300;
+}
+.featuresHeading:before,
+.featuresHeading:after {
+  content: "";
+  display: inline-block;
+  width: 50%;
+  margin: 0 0.5em 0 -55%;
+  vertical-align: middle;
+  border-bottom: 1px solid;
+}
+.featuresHeading:after {
+  margin: 0 -55% 0 0.5em;
+}
+.detailsHeading,
+.detailsInfo {
+  text-align: left;
+}
+
+#mainNav {
+  margin-bottom: 40px;
+}
+
+.navLinks {
+  list-style-type: none;
+}
+
+.activeLink {
+  display: none;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.mainFooter {
+  margin-top: 40px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.mainMenu a {
+  text-decoration: none;
+  color: black;
+  padding: 8px;
+}
+
+.outer {
+  width: 100%;
+  text-align: center;
+}
+
+.prodButton {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px;
+  margin: 5px;
+}
+
+.prodListButton {
+  margin: 15px;
+  padding: 20px;
+}
+
+.listButtons {
+  margin-top: 320px;
+}
+
+.listDetails {
+  float: none;
+}
+
+.viewButton {
+  margin: 4px;
+}
+
+.selectView {
+  float: none;
+  margin: 5px;
+}
+
+.facebookButton {
+  font-family: Lucida Grande, Helvetica Neue, Helvetica, Arial, sans-serif;
+  display: inline-block;
+  font-size: 14px;
+  margin-top: 5px;
+  padding: 13px 20px 10px 14px;
+  background: #3a5a97;
+  color: #fff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 20, 0.4);
+  text-decoration: none;
+  line-height: 1;
+  position: relative;
+  border-radius: 5px;
+}
