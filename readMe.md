@@ -27,11 +27,33 @@ API keys were protected by adding them to separate config/keys.js files and addi
 
 ### Modifying database
 
-To modify MongoDB database, insert username and password into the config/keys section as follows "mongodb+srv://<username>:<password>@hyperiondev-hy6ie.mongodb.net/fashionShow?retryWrites=true&w=majority".
+To use this app on your local machine, create a keys.js file and copy the following to it. Fill in all necessary details.
+"
+module.exports = {
+  google: {
+    callbackURL: "/googlelogin/redirect",
+    clientID:
+      "",
+    clientSecret: ""
+  },
+  facebook: {
+    callbackURI: "/facebooklogin/redirect",
+    clientID: "",
+    clientSecret: ""
+  },
+  mongoDB: {
+    dbURI:
+      "mongodb+srv://<username>:<password>@hyperiondev-hy6ie.mongodb.net/fashionShow?retryWrites=true&w=majority"
+  },
+  session: {
+    cookieKey: "logincookiefortodolist"
+  }
+};
+"
 
 ### Deployment
 
-This app was deployed on Heroku as a full stack app cotaining both the backend and front end.
+This app was deployed on Heroku as a full stack app cotaining both the backend and front end since it has one developer working on both ends.
 The link to the app is as follows: 
 
 # Software requirements document
